@@ -22,11 +22,32 @@
     <main>
         <section>
             <video controls poster="assets/Doomguy-PNG-Pic.png" width="600" height="400">
-                <source src="assets/shortvideo.mp4" type="video/mp4">
+                <source src="assets/shortvideo2.mp4" type="video/mp4">
+                <track src="assets/shortvideo2 (spanish).vtt" kind="subtitles" srclang="es">
                 Tu navegador no soporta la reproducción de video
             </video>
+            <iframe
+                id="inlineFrameExample"
+                title="Inline Frame Example"
+                width="300"
+                height="200"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&amp;layer=mapnik">
+            </iframe>
         </section>
-        
+            <!-- modify this form HTML and place wherever you want your form -->
+        <h2>Formulario de consultas</h2>
+        <form action="https://formspree.io/f/mnndalwn" method="POST">
+            <label>
+                Tu email:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Tu mensaje:
+                <textarea name="message"></textarea>
+            </label>
+            <!-- your other form fields go here -->
+            <button type="submit">Send</button>
+        </form>
     </main>
     <footer>
 
