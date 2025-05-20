@@ -1,4 +1,29 @@
+html{
+    scroll-behavior: smooth;
+}
+header{
+    width: 100%;
+    font-family: "Orbitron", sans-serif;
+    color: greenyellow;
+    background-color: brown;
+}
+
 header ul{
+    font-size: 32px;
+    list-style: none;
+    text-decoration: none;
     display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+footer{
+    font-family: "Orbitron", sans-serif;
+    font-size: 32px;
+    color: greenyellow;
+    background-color: black;
+}
+
+.center{
     align-items: center;
 }
