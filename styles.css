@@ -8,6 +8,14 @@ header{
     background-color: brown;
 }
 
+main{
+    display: grid;
+    border: solid;
+    border-color: red;
+    place-items: center;
+    background-color: beige;
+}
+
 header ul{
     font-size: 32px;
     list-style: none;
@@ -17,6 +25,18 @@ header ul{
     align-items: center;
 }
 
+section{
+    margin: 10px;
+    padding: 20px;
+    border: solid;
+    border-color: red;
+}
+
+form{
+    display: grid;
+    place-items: center;
+}
+
 footer{
     font-family: "Orbitron", sans-serif;
     font-size: 32px;
@@ -24,6 +44,15 @@ footer{
     background-color: black;
 }
 
-.center{
-    align-items: center;
+.center-items{
+    display: grid;
+    place-items: center;
+}
+
+.card{
+
+}
+
+.card-content{
+
 }
