@@ -105,10 +105,12 @@ h2{
 }
 
 .card-grid{
-    background-color: white;
+    background-color: beige;
     border: solid;
     border-color: greenyellow;
+    border-radius: 9px;
     box-shadow: 2px -1px greenyellow;
+    font-family: "Orbitron", sans-serif;
 }
 
 @media only screen and (max-width: 600px) {
@@ -161,6 +163,7 @@ h2{
     min-width: 400px;
     background-color: #f9f9f9;
     color: #33082D;
+    font-family: "Orbitron", sans-serif;
 }
 
 .carritoCompras h2 {
